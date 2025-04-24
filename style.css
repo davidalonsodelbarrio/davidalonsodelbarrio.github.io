@@ -14,12 +14,6 @@ header {
     text-align: center;
 }
 
-.hero {
-    background-image: url('https://github.com/davidalonsodelbarrio/davidalonsodelbarrio.github.io/blob/main/prueba.jpg'); /* Replace with your image link */
-    background-size: cover;
-    background-position: center;
-    padding: 4rem 0;
-}
 .profile-pic {
     width: 150px;
     height: 150px;

@@ -6,7 +6,6 @@ body {
     background-color: #f4f4f9;
     color: #333;
 }
-
 header {
     background-color: #4CAF50;
     color: white;
@@ -14,12 +13,11 @@ header {
     text-align: center;
 }
 
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; /* Makes the image circular */
-    margin-bottom: 1rem;
-    border: 3px solid #4CAF50; /* Adds a border around the picture */
+.hero {
+    background-image: url('https://your-image-link-here.jpg'); /* Replace with your image link */
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 0;
 }
 
 .hero h1 {
@@ -33,9 +31,15 @@ header {
 }
 
 
-header h1 {
-    margin: 0;
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 1rem;
+    border: 3px solid #4CAF50; /* Adds a border around the picture */
 }
+
 
 main {
     padding: 1rem 2rem;
